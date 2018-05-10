@@ -1,4 +1,43 @@
-#info {
-	margin-top: 50px;
-	text-align: center;
+body {
+	font-family: 'Oswald', sans-serif;     /*<- Google Font*/
 }
+
+#home-body {
+	background-image: url(https://source.unsplash.com/2rxgWHby5mo);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+#about-body {
+
+}
+
+#contact-body {
+
+}
+
+#dogs-body {
+
+}
+
+#login-body {
+
+}
+
+#signup-body {
+	
+}
+
+#info {
+	margin: 50px auto;
+	text-align: center;
+	color: #c00;
+	text-shadow: 1px 1px 8px #EFF6FF;
+}
+
+#me-pic { 
+	background-image: url();
+ }
