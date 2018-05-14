@@ -2,6 +2,10 @@ body {
 	font-family: 'Oswald', sans-serif;     /*<- Google Font*/
 }
 
+.first-cont {
+	margin: 50px auto;
+}
+
 #home-body {
 	background-image: url(https://source.unsplash.com/2rxgWHby5mo);
 	background-position: center;
@@ -32,12 +36,11 @@ body {
 }
 
 #info {
-	margin: 50px auto;
 	text-align: center;
 	color: #c00;
 	text-shadow: 1px 1px 8px #EFF6FF;
 }
 
 #me-pic { 
-	background-image: url();
+	
  }
