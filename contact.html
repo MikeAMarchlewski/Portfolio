@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="main.css">
 	
-	<title>Mike's Portfolio About</title>
+	<title>Mike's Portfolio Contact</title>
 
 </head>
 <body id="contact-body">
@@ -29,25 +29,81 @@
       <li class="nav-item">
         <a class="nav-link" href="about.html"><i class="far fa-smile"></i> About</a>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#"><i class="far fa-address-card"></i> Contact<span class="sr-only">(current)</span></a>
-      </li>
       <li class="nav-item">
         <a class="nav-link" href="dogs.html"><i class="far fa-images"></i> Family Dogs</a>
       </li>
     </ul>
 	<ul class="navbar-nav justify-content-end">
-  		<li class="nav-item">
-   		 	<a class="nav-link" href="login.html">Login <i class="fas fa-sign-in-alt"></i></a>
-  		</li>
-  		<li class="nav-item">
-    		<a class="nav-link" href="signup.html">Sign Up <i class="fas fa-user-plus"></i></a>
-  		</li>
+  		<li class="nav-item active">
+        <a class="nav-link" href="#">Contact <i class="far fa-address-card"></i><span class="sr-only">(current)</span></a>
+      </li>
 	</ul>
   </div>
 </nav>
 
-
+<div class="container first-cont">
+  <h1>Contact</h1>
+  <p>If you would like to reach me please fill out this form with your information and click submit. I will get in contact with you when able. Thanks!</p>
+  <form>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputFirstN">First Name</label>
+        <input type="text" class="form-control" id="inputFirstN" placeholder="First Name" required>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputLastN">Last Name</label>
+        <input type="text" class="form-control" id="inputLastN" placeholder="Last Name" required>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-5">
+        <label for="inputEmail">Email</label>
+        <input type="email" class="form-control" id="inputAddress"  placeholder="Email" required>
+      </div>
+      <div class="form-group col-md-5">
+        <label for="inputPhone">Phone Number</label>
+        <input type="number" class="form-control" id="inputAddress2" placeholder="(xxx)-xxx-xxxx" required>
+      </div>
+      <div class="form-group col-md-2">
+        <label for="inputMethod">Preferred Contact Method</label>
+        <select id="inputMethod" class="form-control" required>
+          <option selected>Select</option>
+          <option>Email</option>
+          <option>Phone</option>
+          <option>Either</option>
+        </select>
+      </div>
+    </div>
+    <p></p>
+    <div class="form-group">
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="amCheck">
+        <label class="form-check-label" for="amCheck">
+          8am-noon
+        </label>
+      </div> 
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="pmCheck">
+        <label class="form-check-label" for="pmCheck">
+          Noon-5PM
+        </label>
+      </div> 
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="eveCheck">
+        <label class="form-check-label" for="eveCheck">
+          5PM-9PM
+        </label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="otherCheck">
+        <label class="form-check-label" for="otherCheck">
+          Specific Time: 
+        </label>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary" disabled>Submit</button>
+  </form>
+</div>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
