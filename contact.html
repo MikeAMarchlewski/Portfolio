@@ -43,73 +43,82 @@
 
 <div class="container first-cont">
   <h1>Contact</h1>
-  <p>If you would like to reach me please fill out this form with your information and click submit. I will get in contact with you when able. Thanks!</p>
-  <form>
-    <div class="form-row">
-      <div class="form-group col-md-6">
-        <label for="inputFirstN">First Name</label>
-        <input type="text" class="form-control" id="inputFirstN" placeholder="First Name" required>
-      </div>
-      <div class="form-group col-md-6">
-        <label for="inputLastN">Last Name</label>
-        <input type="text" class="form-control" id="inputLastN" placeholder="Last Name" required>
-      </div>
-    </div>
-    <div class="form-row">
-      <div class="form-group col-md-5">
-        <label for="inputEmail">Email</label>
-        <input type="email" class="form-control" id="inputAddress"  placeholder="Email" required>
-      </div>
-      <div class="form-group col-md-5">
-        <label for="inputPhone">Phone Number</label>
-        <input type="number" class="form-control" id="inputAddress2" placeholder="(xxx)-xxx-xxxx" required>
-      </div>
-      <div class="form-group col-md-2">
-        <label for="inputMethod">Preferred Contact Method</label>
-        <select id="inputMethod" class="form-control" required>
-          <option selected>Select</option>
-          <option>Email</option>
-          <option>Phone</option>
-          <option>Either</option>
-        </select>
-      </div>
-    </div>
-    <p>Please select the time frame(s) that work best for me to contact you.</p>
-    <div class="form-group">
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="checkbox" id="amCheck">
-        <label class="form-check-label" for="amCheck">
-          8am-noon
-        </label>
-      </div> 
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="checkbox" id="pmCheck">
-        <label class="form-check-label" for="pmCheck">
-          Noon-5PM
-        </label>
-      </div> 
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="checkbox" id="eveCheck">
-        <label class="form-check-label" for="eveCheck">
-          5PM-9PM
-        </label>
-      </div>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="checkbox" id="otherCheck">
-        <label class="form-check-label" for="otherCheck">
-          Specific Time: 
-        </label>
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Time">
+  <div class="row" id="cont-form">
+    <form class="col-lg-6">
+      <p>If you would like to reach me please fill out this form with your information and click submit. I will get in contact with you when able. Thanks!</p>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputFirstN">First Name</label>
+          <input type="text" class="form-control" id="inputFirstN" placeholder="First Name" required>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputLastN">Last Name</label>
+          <input type="text" class="form-control" id="inputLastN" placeholder="Last Name" required>
         </div>
       </div>
+      <div class="form-row">
+        <div class="form-group col-md-5">
+          <label for="inputEmail">Email</label>
+          <input type="email" class="form-control" id="inputAddress"  placeholder="Email" required>
+        </div>
+        <div class="form-group col-md-5">
+          <label for="inputPhone">Phone Number</label>
+          <input type="number" class="form-control" id="inputAddress2" placeholder="(xxx)-xxx-xxxx" required>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="inputMethod">Preferred Method</label>
+          <select id="inputMethod" class="form-control" required>
+            <option selected>Select</option>
+            <option>Email</option>
+            <option>Phone</option>
+            <option>Either</option>
+          </select>
+        </div>
+      </div>
+      <p>Please select the time frame(s) that work best for me to contact you.</p>
+      <div class="form-group">
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="amCheck">
+          <label class="form-check-label" for="amCheck">
+          8am-noon
+          </label>
+        </div> 
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="pmCheck">
+          <label class="form-check-label" for="pmCheck">
+          Noon-5PM
+          </label>
+        </div> 
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="eveCheck">
+          <label class="form-check-label" for="eveCheck">
+          5PM-9PM
+          </label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="otherCheck">
+          <label class="form-check-label" for="otherCheck">
+          Specific Time: 
+          </label>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Time">
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="reasonArea">Please breifly state the reason for contact.</label>
+        <textarea class="form-control" id="reasonArea" rows="3" placeholder="Statement" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary" disabled>Submit</button>
+    </form>
+    <div class="col-lg-6" id="cont-also">
+      <ul class="list-group">
+        <li class="list-group-item">You can also reach me by cell or email.</li>
+        <li class="list-group-item"><i class="fas fa-envelope-square"></i> mikealexmarchlewski@gmail.com</li>
+        <li class="list-group-item"><i class="fas fa-mobile-alt"></i> 214-662-7258 (call/text)</li>
+      </ul>
     </div>
-    <div class="form-group">
-      <label for="reasonArea">Please breifly state the reason for contact.</label>
-      <textarea class="form-control" id="reasonArea" rows="3" placeholder="Statement" required></textarea>
-    </div>
-    <button type="submit" class="btn btn-primary" disabled>Submit</button>
-  </form>
+  </div>
 </div>
 
 

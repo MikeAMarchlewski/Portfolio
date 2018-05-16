@@ -20,7 +20,11 @@ body {
 }
 
 #contact-body {
-
+	background-image: url(https://source.unsplash.com/aj2NByc3srs);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 #dogs-body {
@@ -35,4 +39,11 @@ body {
 
 #res-but {
 	text-align: center;
+}
+
+#cont-form {
+	color: #27164b;
+}
+#cont-also {
+	
 }
