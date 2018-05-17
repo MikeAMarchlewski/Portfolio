@@ -7,8 +7,7 @@ body {
 }
 
 .p-about {
-/*	background-color: #383B6F;
-*/	color: #00C11A;
+	color: #00C11A;
 	text-shadow: 1px 3px 2px #383B6F;
 	font-size: 20px;
 }
