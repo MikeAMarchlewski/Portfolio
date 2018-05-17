@@ -43,7 +43,12 @@ body {
 
 }
 
-#info {
+#me-pic {
+	border: solid 4px #243C98;
+	padding: 0;
+}
+
+#index-info {
 	text-align: center;
 	color: #c00;
 	text-shadow: 1px 1px 8px #EFF6FF;
@@ -59,9 +64,10 @@ body {
 
 #cont-form {
 	color: #27164b;
+	text-shadow: 1px 3px 2px #eee;
 }
 #cont-also {
-	
+	margin-top: 20px
 }
 #tie {
 	margin-bottom: 1px;
