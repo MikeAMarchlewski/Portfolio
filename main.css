@@ -6,6 +6,13 @@ body {
 	margin: 50px auto;
 }
 
+.p-about {
+/*	background-color: #383B6F;
+*/	color: #00C11A;
+	text-shadow: 1px 3px 2px #383B6F;
+	font-size: 20px;
+}
+
 #home-body {
 	background-image: url(https://source.unsplash.com/2rxgWHby5mo);
 	background-position: center;
@@ -16,6 +23,11 @@ body {
 }
 
 #about-body {
+	background-image: url(https://source.unsplash.com/XZ6KN9y29nY);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 
 }
 
@@ -41,9 +53,16 @@ body {
 	text-align: center;
 }
 
+#res-but a:hover {
+	color: #383B6F;
+}
+
 #cont-form {
 	color: #27164b;
 }
 #cont-also {
 	
+}
+#tie {
+	margin-bottom: 1px;
 }
